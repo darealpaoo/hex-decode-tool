@@ -7,7 +7,6 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     z-index: 9999;
     width: 100%;
-    text-align: center;
     border: none !important;
 }
 
@@ -16,6 +15,7 @@
 }
 
 body {
+    overflow: hidden;
     padding: 0;
     margin: 0;
 }
@@ -48,7 +48,6 @@ textarea:first-child {
 #decodeBtn {
     color: #FFF;
     border-radius: 50%;
-    font-size: 24px;
     height: 56px;
     margin: auto;
     min-width: 56px;
@@ -56,18 +55,11 @@ textarea:first-child {
     padding: 0;
     overflow: hidden;
     background-color: rgb(158, 158, 158);
-    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.24);
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.20);
     position: relative;
-    line-height: normal;
     border: none;
     display: inline-block;
-    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 0;
     will-change: box-shadow;
-    -webkit-transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-    transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
     outline: none;
     cursor: pointer;
     text-decoration: none;
@@ -79,7 +71,6 @@ textarea:first-child {
     position: absolute;
     top: 50%;
     left: 50%;
-    -webkit-transform: translate(-12px, -12px);
     transform: translate(-12px, -12px);
     line-height: 24px;
     width: 24px;
